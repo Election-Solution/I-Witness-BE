@@ -3,8 +3,8 @@ from rest_framework import viewsets
 from django.http import JsonResponse, HttpResponse
 
 # Create your views here.
-def index():
-    return HttpResponse("Hello, World! This is the authentication app.")
+def index(request):
+    return render(request, 'index.html')
 
 # user report 
 
