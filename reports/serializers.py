@@ -8,7 +8,7 @@ class PollingUnitSerializer(serializers.ModelSerializer):
     class Meta:
         model  = PollingUnit
         # pu_code is the primary key — no separate "id" field
-        fields = ["pu_code", "name", "state", "lga", "ward", "latitude", "longitude"]
+        fields = ["pu_code", "pu_name", "state", "lga", "ward", "latitude", "longitude"]
 
 
 class MediaAttachmentSerializer(serializers.ModelSerializer):
