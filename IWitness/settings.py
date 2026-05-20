@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://i-witness.up.railway.app/", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["i-witness-be.onrender.com", "localhost", "127.0.0.1", 'watchdog-beige.vercel.app']
 
 
 # Application definition
