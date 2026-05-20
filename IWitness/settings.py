@@ -153,7 +153,10 @@ CORS_ALLOWED_ORIGIN_REGEXES = [
 CORS_ALLOWED_ORIGINS = [
    "http://localhost:3000",  
    "https://i-witness.up.railway.app",
+    'https://watchdog-beige.vercel.app/',
+    "https://i-witness-be.onrender.com",
 ]
+
 
 CORS_ALLOW_CREDENTIALS = True
 
